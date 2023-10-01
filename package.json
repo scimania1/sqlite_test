@@ -9,14 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@libsql/client": "^0.3.5",
+    "drizzle-orm": "^0.28.6",
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
-    "@types/react-dom": "latest"
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "drizzle-kit": "^0.19.13",
+    "typescript": "latest"
   }
 }
